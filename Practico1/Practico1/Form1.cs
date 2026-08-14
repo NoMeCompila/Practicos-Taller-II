@@ -11,5 +11,23 @@ namespace Practico1
         {
 
         }
+
+        private void BGuardar_Click(object sender, EventArgs e)
+        {
+            string myName = this.textBox2.Text;
+            string myLastName = this.textBox1.Text;
+
+            this.txtMultiline.Text = $"{myName} {myLastName}";
+        }
+
+        private void BEliminar_Click(object sender, EventArgs e)
+        {
+            this.txtMultiline.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

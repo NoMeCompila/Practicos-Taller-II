@@ -35,6 +35,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             txtMultiline = new TextBox();
+            BSalir = new Button();
             SuspendLayout();
             // 
             // BGuardar
@@ -45,6 +46,7 @@
             BGuardar.TabIndex = 0;
             BGuardar.Text = "Guardar";
             BGuardar.UseVisualStyleBackColor = true;
+            BGuardar.Click += BGuardar_Click;
             // 
             // BEliminar
             // 
@@ -54,11 +56,12 @@
             BEliminar.TabIndex = 1;
             BEliminar.Text = "Eliminar";
             BEliminar.UseVisualStyleBackColor = true;
+            BEliminar.Click += BEliminar_Click;
             // 
             // LApellido
             // 
             LApellido.AutoSize = true;
-            LApellido.Location = new Point(46, 45);
+            LApellido.Location = new Point(46, 97);
             LApellido.Name = "LApellido";
             LApellido.Size = new Size(51, 15);
             LApellido.TabIndex = 2;
@@ -68,7 +71,7 @@
             // LNombre
             // 
             LNombre.AutoSize = true;
-            LNombre.Location = new Point(46, 92);
+            LNombre.Location = new Point(46, 53);
             LNombre.Name = "LNombre";
             LNombre.Size = new Size(51, 15);
             LNombre.TabIndex = 3;
@@ -76,14 +79,14 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(103, 37);
+            textBox1.Location = new Point(103, 94);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(103, 84);
+            textBox2.Location = new Point(103, 45);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 5;
@@ -96,11 +99,22 @@
             txtMultiline.Size = new Size(207, 140);
             txtMultiline.TabIndex = 6;
             // 
+            // BSalir
+            // 
+            BSalir.Location = new Point(313, 205);
+            BSalir.Name = "BSalir";
+            BSalir.Size = new Size(75, 23);
+            BSalir.TabIndex = 7;
+            BSalir.Text = "Salir";
+            BSalir.UseVisualStyleBackColor = true;
+            BSalir.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(484, 261);
+            Controls.Add(BSalir);
             Controls.Add(txtMultiline);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -109,6 +123,7 @@
             Controls.Add(BEliminar);
             Controls.Add(BGuardar);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Mi Primer Forms";
             ResumeLayout(false);
             PerformLayout();
@@ -123,5 +138,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox txtMultiline;
+        private Button BSalir;
     }
 }
