@@ -31,26 +31,26 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form));
             lblTitle = new Label();
             panForm = new Panel();
+            txtTel = new TextBox();
+            txtApellido = new TextBox();
+            txtNombre = new TextBox();
+            txtDNI = new TextBox();
+            chkMastercard = new CheckBox();
+            chkVisa = new CheckBox();
+            chkNaranja = new CheckBox();
+            lblCard = new Label();
+            lblTel = new Label();
+            lblApellido = new Label();
+            lblNombre = new Label();
+            lblDNI = new Label();
+            lblModificar = new Label();
+            lblNyP = new Label();
             btnGuardar = new Button();
             btnEliminar = new Button();
             btnSalir = new Button();
             lblGuardar = new Label();
             lblEliminar = new Label();
             lblSalir = new Label();
-            lblNyP = new Label();
-            lblModificar = new Label();
-            lblDNI = new Label();
-            lblNombre = new Label();
-            lblApellido = new Label();
-            lblTel = new Label();
-            lblCard = new Label();
-            chkNaranja = new CheckBox();
-            chkVisa = new CheckBox();
-            chkMastercard = new CheckBox();
-            txtDNI = new TextBox();
-            txtNombre = new TextBox();
-            txtApellido = new TextBox();
-            txtTel = new TextBox();
             radHombre = new RadioButton();
             radMujer = new RadioButton();
             picUser = new PictureBox();
@@ -93,6 +93,132 @@
             panForm.TabIndex = 1;
             panForm.Paint += panel1_Paint;
             // 
+            // txtTel
+            // 
+            txtTel.Location = new Point(161, 191);
+            txtTel.Name = "txtTel";
+            txtTel.Size = new Size(100, 23);
+            txtTel.TabIndex = 21;
+            txtTel.KeyPress += txtTel_KeyPress;
+            // 
+            // txtApellido
+            // 
+            txtApellido.Location = new Point(161, 150);
+            txtApellido.Name = "txtApellido";
+            txtApellido.Size = new Size(100, 23);
+            txtApellido.TabIndex = 20;
+            txtApellido.KeyPress += txtApellido_KeyPress;
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(161, 111);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(100, 23);
+            txtNombre.TabIndex = 19;
+            txtNombre.KeyPress += txtNombre_KeyPress;
+            // 
+            // txtDNI
+            // 
+            txtDNI.Location = new Point(161, 72);
+            txtDNI.Name = "txtDNI";
+            txtDNI.Size = new Size(100, 23);
+            txtDNI.TabIndex = 18;
+            txtDNI.KeyPress += txtDNI_KeyPress;
+            // 
+            // chkMastercard
+            // 
+            chkMastercard.AutoSize = true;
+            chkMastercard.Location = new Point(161, 280);
+            chkMastercard.Name = "chkMastercard";
+            chkMastercard.Size = new Size(85, 19);
+            chkMastercard.TabIndex = 17;
+            chkMastercard.Text = "Mastercard";
+            chkMastercard.UseVisualStyleBackColor = true;
+            // 
+            // chkVisa
+            // 
+            chkVisa.AutoSize = true;
+            chkVisa.Location = new Point(161, 255);
+            chkVisa.Name = "chkVisa";
+            chkVisa.Size = new Size(47, 19);
+            chkVisa.TabIndex = 16;
+            chkVisa.Text = "Visa";
+            chkVisa.UseVisualStyleBackColor = true;
+            // 
+            // chkNaranja
+            // 
+            chkNaranja.AutoSize = true;
+            chkNaranja.Location = new Point(161, 233);
+            chkNaranja.Name = "chkNaranja";
+            chkNaranja.Size = new Size(67, 19);
+            chkNaranja.TabIndex = 15;
+            chkNaranja.Text = "Naranja";
+            chkNaranja.UseVisualStyleBackColor = true;
+            // 
+            // lblCard
+            // 
+            lblCard.AutoSize = true;
+            lblCard.Location = new Point(41, 234);
+            lblCard.Name = "lblCard";
+            lblCard.Size = new Size(104, 15);
+            lblCard.TabIndex = 14;
+            lblCard.Text = "Tarjetas de Crédito";
+            // 
+            // lblTel
+            // 
+            lblTel.AutoSize = true;
+            lblTel.Location = new Point(41, 194);
+            lblTel.Name = "lblTel";
+            lblTel.Size = new Size(52, 15);
+            lblTel.TabIndex = 13;
+            lblTel.Text = "Teléfono";
+            // 
+            // lblApellido
+            // 
+            lblApellido.AutoSize = true;
+            lblApellido.Location = new Point(41, 158);
+            lblApellido.Name = "lblApellido";
+            lblApellido.Size = new Size(51, 15);
+            lblApellido.TabIndex = 12;
+            lblApellido.Text = "Apellido";
+            // 
+            // lblNombre
+            // 
+            lblNombre.AutoSize = true;
+            lblNombre.Location = new Point(42, 119);
+            lblNombre.Name = "lblNombre";
+            lblNombre.Size = new Size(51, 15);
+            lblNombre.TabIndex = 11;
+            lblNombre.Text = "Nombre";
+            // 
+            // lblDNI
+            // 
+            lblDNI.AutoSize = true;
+            lblDNI.Location = new Point(42, 80);
+            lblDNI.Name = "lblDNI";
+            lblDNI.Size = new Size(27, 15);
+            lblDNI.TabIndex = 10;
+            lblDNI.Text = "DNI";
+            // 
+            // lblModificar
+            // 
+            lblModificar.AutoSize = true;
+            lblModificar.ForeColor = Color.Red;
+            lblModificar.Location = new Point(161, 16);
+            lblModificar.Name = "lblModificar";
+            lblModificar.Size = new Size(58, 15);
+            lblModificar.TabIndex = 9;
+            lblModificar.Text = "Modificar";
+            // 
+            // lblNyP
+            // 
+            lblNyP.AutoSize = true;
+            lblNyP.Location = new Point(41, 16);
+            lblNyP.Name = "lblNyP";
+            lblNyP.Size = new Size(107, 15);
+            lblNyP.TabIndex = 8;
+            lblNyP.Text = "Nombre y Apellido";
+            // 
             // btnGuardar
             // 
             btnGuardar.BackColor = Color.LightSkyBlue;
@@ -104,6 +230,7 @@
             btnGuardar.Size = new Size(54, 48);
             btnGuardar.TabIndex = 2;
             btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // btnEliminar
             // 
@@ -116,6 +243,7 @@
             btnEliminar.Size = new Size(47, 48);
             btnEliminar.TabIndex = 3;
             btnEliminar.UseVisualStyleBackColor = false;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnSalir
             // 
@@ -128,6 +256,7 @@
             btnSalir.Size = new Size(54, 48);
             btnSalir.TabIndex = 4;
             btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += btnSalir_Click;
             // 
             // lblGuardar
             // 
@@ -156,131 +285,10 @@
             lblSalir.TabIndex = 7;
             lblSalir.Text = "Salir";
             // 
-            // lblNyP
-            // 
-            lblNyP.AutoSize = true;
-            lblNyP.Location = new Point(41, 16);
-            lblNyP.Name = "lblNyP";
-            lblNyP.Size = new Size(107, 15);
-            lblNyP.TabIndex = 8;
-            lblNyP.Text = "Nombre y Apellido";
-            // 
-            // lblModificar
-            // 
-            lblModificar.AutoSize = true;
-            lblModificar.ForeColor = Color.Red;
-            lblModificar.Location = new Point(161, 16);
-            lblModificar.Name = "lblModificar";
-            lblModificar.Size = new Size(58, 15);
-            lblModificar.TabIndex = 9;
-            lblModificar.Text = "Modificar";
-            // 
-            // lblDNI
-            // 
-            lblDNI.AutoSize = true;
-            lblDNI.Location = new Point(41, 72);
-            lblDNI.Name = "lblDNI";
-            lblDNI.Size = new Size(27, 15);
-            lblDNI.TabIndex = 10;
-            lblDNI.Text = "DNI";
-            // 
-            // lblNombre
-            // 
-            lblNombre.AutoSize = true;
-            lblNombre.Location = new Point(41, 111);
-            lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(51, 15);
-            lblNombre.TabIndex = 11;
-            lblNombre.Text = "Nombre";
-            // 
-            // lblApellido
-            // 
-            lblApellido.AutoSize = true;
-            lblApellido.Location = new Point(41, 158);
-            lblApellido.Name = "lblApellido";
-            lblApellido.Size = new Size(51, 15);
-            lblApellido.TabIndex = 12;
-            lblApellido.Text = "Apellido";
-            // 
-            // lblTel
-            // 
-            lblTel.AutoSize = true;
-            lblTel.Location = new Point(41, 194);
-            lblTel.Name = "lblTel";
-            lblTel.Size = new Size(52, 15);
-            lblTel.TabIndex = 13;
-            lblTel.Text = "Teléfono";
-            // 
-            // lblCard
-            // 
-            lblCard.AutoSize = true;
-            lblCard.Location = new Point(41, 234);
-            lblCard.Name = "lblCard";
-            lblCard.Size = new Size(104, 15);
-            lblCard.TabIndex = 14;
-            lblCard.Text = "Tarjetas de Crédito";
-            // 
-            // chkNaranja
-            // 
-            chkNaranja.AutoSize = true;
-            chkNaranja.Location = new Point(161, 233);
-            chkNaranja.Name = "chkNaranja";
-            chkNaranja.Size = new Size(67, 19);
-            chkNaranja.TabIndex = 15;
-            chkNaranja.Text = "Naranja";
-            chkNaranja.UseVisualStyleBackColor = true;
-            // 
-            // chkVisa
-            // 
-            chkVisa.AutoSize = true;
-            chkVisa.Location = new Point(161, 255);
-            chkVisa.Name = "chkVisa";
-            chkVisa.Size = new Size(47, 19);
-            chkVisa.TabIndex = 16;
-            chkVisa.Text = "Visa";
-            chkVisa.UseVisualStyleBackColor = true;
-            // 
-            // chkMastercard
-            // 
-            chkMastercard.AutoSize = true;
-            chkMastercard.Location = new Point(161, 280);
-            chkMastercard.Name = "chkMastercard";
-            chkMastercard.Size = new Size(85, 19);
-            chkMastercard.TabIndex = 17;
-            chkMastercard.Text = "Mastercard";
-            chkMastercard.UseVisualStyleBackColor = true;
-            // 
-            // txtDNI
-            // 
-            txtDNI.Location = new Point(161, 72);
-            txtDNI.Name = "txtDNI";
-            txtDNI.Size = new Size(100, 23);
-            txtDNI.TabIndex = 18;
-            // 
-            // txtNombre
-            // 
-            txtNombre.Location = new Point(161, 111);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(100, 23);
-            txtNombre.TabIndex = 19;
-            // 
-            // txtApellido
-            // 
-            txtApellido.Location = new Point(161, 150);
-            txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(100, 23);
-            txtApellido.TabIndex = 20;
-            // 
-            // txtTel
-            // 
-            txtTel.Location = new Point(161, 191);
-            txtTel.Name = "txtTel";
-            txtTel.Size = new Size(100, 23);
-            txtTel.TabIndex = 21;
-            // 
             // radHombre
             // 
             radHombre.AutoSize = true;
+            radHombre.Checked = true;
             radHombre.Location = new Point(422, 282);
             radHombre.Name = "radHombre";
             radHombre.Size = new Size(69, 19);
@@ -288,6 +296,7 @@
             radHombre.TabStop = true;
             radHombre.Text = "Hombre";
             radHombre.UseVisualStyleBackColor = true;
+            radHombre.CheckedChanged += radHombre_CheckedChanged;
             // 
             // radMujer
             // 
@@ -296,13 +305,13 @@
             radMujer.Name = "radMujer";
             radMujer.Size = new Size(56, 19);
             radMujer.TabIndex = 9;
-            radMujer.TabStop = true;
             radMujer.Text = "Mujer";
             radMujer.UseVisualStyleBackColor = true;
+            radMujer.CheckedChanged += radMujer_CheckedChanged;
             // 
             // picUser
             // 
-            picUser.BackgroundImage = (Image)resources.GetObject("picUser.BackgroundImage");
+            picUser.BackgroundImage = Properties.Resources.male_user1;
             picUser.BackgroundImageLayout = ImageLayout.Zoom;
             picUser.Location = new Point(410, 107);
             picUser.Name = "picUser";
@@ -328,6 +337,7 @@
             Controls.Add(panForm);
             Controls.Add(lblTitle);
             Name = "Form";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Pequeño Formulario";
             panForm.ResumeLayout(false);
             panForm.PerformLayout();
