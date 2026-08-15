@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13F26EE9-EC89-4325-A0F2-7915E6E57716}|Practico2\\Practico2.csproj|c:\\users\\fer\\source\\repos\\practico2\\practico2\\practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F26EE9-EC89-4325-A0F2-7915E6E57716}|Practico2\\Practico2.csproj|solutionrelative:practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B5ED15A-CBF0-70A0-E436-FAF3A95DCD04}|Practico2\\Practico2.csproj|c:\\users\\fer\\source\\repos\\practico2\\practico2\\practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B5ED15A-CBF0-70A0-E436-FAF3A95DCD04}|Practico2\\Practico2.csproj|solutionrelative:practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F26EE9-EC89-4325-A0F2-7915E6E57716}|Practico2\\Practico2.csproj|c:\\users\\fer\\source\\repos\\practico2\\practico2\\practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8B5ED15A-CBF0-70A0-E436-FAF3A95DCD04}|Practico2\\Practico2.csproj|c:\\users\\fer\\source\\repos\\practico2\\practico2\\practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5ED15A-CBF0-70A0-E436-FAF3A95DCD04}|Practico2\\Practico2.csproj|solutionrelative:practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F26EE9-EC89-4325-A0F2-7915E6E57716}|Practico2\\Practico2.csproj|C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{13F26EE9-EC89-4325-A0F2-7915E6E57716}|Practico2\\Practico2.csproj|solutionrelative:practico2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,32 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Form1.cs",
               "RelativeDocumentMoniker": "Practico2\\Form1.cs",
               "ToolTip": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Practico2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T01:56:21.985Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-08-15T01:56:21.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Form1.cs",
               "RelativeDocumentMoniker": "Practico2\\Form1.cs",
               "ToolTip": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Form1.cs",
               "RelativeToolTip": "Practico2\\Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-15T01:00:48.824Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Form1.cs",
+              "RelativeDocumentMoniker": "Practico2\\Form1.cs",
+              "ToolTip": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practico2\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T03:19:54.963Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Practico2.csproj",
+      "projectUniqueName": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2.csproj",
       "projectName": "Practico2",
-      "projectPath": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\Practico2.csproj",
+      "projectPath": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2.csproj",
       "packagesPath": "C:\\Users\\FeR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\Practico2\\obj\\",
+      "outputPath": "C:\\Users\\FeR\\source\\repos\\Practico2\\Practico2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FeR\\AppData\\Roaming\\NuGet\\NuGet.Config",
