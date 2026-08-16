@@ -122,9 +122,11 @@
             Controls.Add(LApellido);
             Controls.Add(BEliminar);
             Controls.Add(BGuardar);
+            KeyPreview = true;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mi Primer Forms";
+            KeyDown += Form1_KeyDown;
             ResumeLayout(false);
             PerformLayout();
         }

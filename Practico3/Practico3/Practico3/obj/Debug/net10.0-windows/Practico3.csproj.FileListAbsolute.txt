@@ -16,3 +16,4 @@ C:\Users\FeR\source\repos\Practico3\Practico3\Practico3\obj\Debug\net10.0-window
 C:\Users\FeR\source\repos\Practico3\Practico3\Practico3\obj\Debug\net10.0-windows\Practico3.pdb
 C:\Users\FeR\source\repos\Practico3\Practico3\Practico3\obj\Debug\net10.0-windows\Practico3.genruntimeconfig.cache
 C:\Users\FeR\source\repos\Practico3\Practico3\Practico3\obj\Debug\net10.0-windows\ref\Practico3.dll
+C:\Users\FeR\source\repos\Practico3\Practico3\Practico3\obj\Debug\net10.0-windows\Practico3.Form2.resources

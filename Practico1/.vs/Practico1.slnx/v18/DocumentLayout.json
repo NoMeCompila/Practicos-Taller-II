@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{CF810098-1F93-FA32-C3BB-790FEF785A1C}|Practico1\\Practico1.csproj|solutionrelative:practico1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF810098-1F93-FA32-C3BB-790FEF785A1C}|Practico1\\Practico1.csproj|c:\\users\\fer\\source\\repos\\practico1\\practico1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF810098-1F93-FA32-C3BB-790FEF785A1C}|Practico1\\Practico1.csproj|C:\\Users\\FeR\\source\\repos\\Practico1\\practico1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF810098-1F93-FA32-C3BB-790FEF785A1C}|Practico1\\Practico1.csproj|solutionrelative:practico1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Practico1\\Form1.cs",
               "ToolTip": "C:\\Users\\FeR\\source\\repos\\Practico1\\Practico1\\Form1.cs",
               "RelativeToolTip": "Practico1\\Form1.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-14T02:07:27.573Z",
               "IsPinned": true,
@@ -41,7 +41,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Practico1",
+              "Title": "Practico1.csproj",
               "DocumentMoniker": "C:\\Users\\FeR\\source\\repos\\Practico1\\Practico1\\Practico1.csproj",
               "RelativeDocumentMoniker": "Practico1\\Practico1.csproj",
               "ToolTip": "C:\\Users\\FeR\\source\\repos\\Practico1\\Practico1\\Practico1.csproj",

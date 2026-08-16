@@ -29,5 +29,14 @@ namespace Practico1
         {
             this.Close();
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.S)
+            {
+                e.SuppressKeyPress = true; // Evita el sonido de alerta del sistema
+                Application.Exit();       // Equivalente en C# a finalizar la aplicación
+            }
+        }
     }
 }
