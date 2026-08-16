@@ -53,3 +53,12 @@
 - [X] **Evento/Acción del Botón Salir:**
   - Cerrar la aplicación utilizando la sentencia `End`.
   - Responder a la combinación de teclas `Ctrl + S`.
+
+## 4. Resultado
+<p align="center">
+<img width="500" align="center" height="297" alt="image" src="https://github.com/user-attachments/assets/026b52fa-f8aa-47dc-bff1-ad94dc9b263f" />
+</p>
+
+
+https://github.com/user-attachments/assets/07884fc9-6bb7-441b-9ef2-329f762b371c
+
