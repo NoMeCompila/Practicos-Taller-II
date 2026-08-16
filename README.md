@@ -53,3 +53,66 @@
 - [X] **Evento/Acción del Botón Salir:**
   - Cerrar la aplicación utilizando la sentencia `End`.
   - Responder a la combinación de teclas `Ctrl + S`.
+
+
+  # Checklist - Práctico 2: Validación de Campos y Tipos de Mensajes MsgBox
+
+  ## 1. Configuración del Proyecto y Formulario
+- [X] **Nombre del Proyecto:** `Practico3` (o guardado en carpeta `Pequeño Formulario`).
+- [X] **Nombre del Formulario / Título (`Text`):** `"Pequeño Formulario"`.
+---
+## 2. Controles de Interfaz de Usuario (UI)
+
+### Labels
+- [X] **`LDni`**:
+  - `Name`: `LDni`
+  - `Text`: `DNI`
+- [X] **`LApellido`**:
+  - `Name`: `LApellido`
+  - `Text`: `Apellido`
+- [X] **`LNombre`**:
+  - `Name`: `LNombre`
+  - `Text`: `Nombre`
+- [X] **`LNya`**:
+  - `Name`: `LNya`
+  - `Text`: `Nombre y Apellido:`
+- [X] **`LModificar`**:
+  - `Name`: `LModificar`
+  - `Text`: `modificar`
+  - `ForeColor`: Color Rojo
+
+### TextBoxes
+- [X] **`TDni`**: `Name` = `TDni`
+- [X] **`TApellido`**: `Name` = `TApellido`
+- [X] **`TNombre`**: `Name` = `TNombre`
+
+### Botones
+- [X] **Botón Guardar:**
+  - `Name`: `BGuardar` (o `TGuardar`)
+  - `Text`: `Guardar`
+- [X] **Botón Eliminar:**
+  - `Name`: `BEliminar` (o `TEliminar`)
+  - `Text`: `Eliminar`
+
+---
+
+## 3. Validaciones de Entrada (KeyPress)
+- [X] **Validación `TDni`:** Permitir únicamente el ingreso de caracteres numéricos (y teclas de control como Backspace).
+- [X] **Validación `TApellido`:** Permitir únicamente el ingreso de letras (y teclas de control/espacio).
+- [X] **Validación `TNombre`:** Permitir únicamente el ingreso de letras (y teclas de control/espacio).
+
+---
+
+## 4. Lógica y Eventos
+
+### Botón Guardar (`BGuardar`)
+- [X] **Validación de Campos Vacíos:**
+  - Evaluar si algún campo (`TDni`, `TApellido`, `TNombre`) está vacío mediante `If` con operador lógico `Or` / `||`.
+  - Si falta completar algún campo:
+    - Mostrar **MsgBox Crítico / Error** con título `"Error"` y mensaje `"Debe Completar todos los campos"`.
+- [X] **Confirmación de Inserción (Campos Completos):**
+  - Actualizar el label `LModificar` con el nombre y apellido ingresados.
+  - Declarar variable `ask` (`MsgBoxResult` / `DialogResult`).
+  - Mostrar **MsgBox de Consulta / Question** (Sí/No) con título `"Confirmar Insercion"`, mensaje `"Seguro que desea insertar un nuevo Cliente?"` y el **foco por defecto en "SI"**.
+  - Si el usuario selecciona **"SI"**:
+    - Mostrar **MsgBox de Información** con título `"Guardar"` y mensaje `"El Cliente: [Nombre Apellido] se insertó correctamente"`.
