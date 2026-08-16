@@ -67,9 +67,9 @@ https://github.com/user-attachments/assets/07884fc9-6bb7-441b-9ef2-329f762b371c
 ---
 
 ## 1. Configuración del Proyecto y Formulario
-- [X] **Nombre del Proyecto:** `Practico3`[cite: 3]
-- [X] **Título de la ventana / Formulario (`Text`):** `"Pequeño Formulario"`[cite: 3]
-- [X] **Guardado final:** Proyecto guardado en carpeta `"Pequeño Formulario"`[cite: 3]
+- [X] **Nombre del Proyecto:** `Practico3`
+- [X] **Título de la ventana / Formulario (`Text`):** `"Pequeño Formulario"`
+- [X] **Guardado final:** Proyecto guardado en carpeta `"Pequeño Formulario"`
 
 ---
 
@@ -77,41 +77,41 @@ https://github.com/user-attachments/assets/07884fc9-6bb7-441b-9ef2-329f762b371c
 
 ### Labels
 - [X] **Label DNI:**
-  - `Name`: `LDni`[cite: 3]
-  - `Text`: `DNI`[cite: 3]
+  - `Name`: `LDni`
+  - `Text`: `DNI`
 - [X] **Label Apellido:**
-  - `Name`: `LApellido`[cite: 3]
-  - `Text`: `Apellido`[cite: 3]
+  - `Name`: `LApellido`
+  - `Text`: `Apellido`
 - [X] **Label Nombre:**
-  - `Name`: `LNombre`[cite: 3]
-  - `Text`: `Nombre`[cite: 3]
+  - `Name`: `LNombre`
+  - `Text`: `Nombre`
 - [X] **Label Encabezado NyA:**
-  - `Name`: `LNya`[cite: 3]
-  - `Text`: `Nombre y Apellido:`[cite: 3]
+  - `Name`: `LNya`
+  - `Text`: `Nombre y Apellido:`
 - [X] **Label Dinámico Modificar:**
-  - `Name`: `LModificar`[cite: 3]
-  - `Text`: `modificar`[cite: 3]
-  - `ForeColor`: Color Rojo[cite: 3]
+  - `Name`: `LModificar`
+  - `Text`: `modificar`
+  - `ForeColor`: Color Rojo
 
 ### TextBoxes
-- [X] **`TDni`:** Caja de texto para ingreso de DNI[cite: 3].
-- [X] **`TApellido`:** Caja de texto para ingreso de Apellido[cite: 3].
-- [X] **`TNombre`:** Caja de texto para ingreso de Nombre[cite: 3].
+- [X] **`TDni`:** Caja de texto para ingreso de DNI.
+- [X] **`TApellido`:** Caja de texto para ingreso de Apellido.
+- [X] **`TNombre`:** Caja de texto para ingreso de Nombre.
 
 ### Botones
 - [X] **Botón Guardar:**
-  - `Name`: `BGuardar` (o `TGuardar`)[cite: 3]
-  - `Text`: `Guardar`[cite: 3]
+  - `Name`: `BGuardar` (o `TGuardar`)
+  - `Text`: `Guardar`
 - [X] **Botón Eliminar:**
-  - `Name`: `BEliminar` (o `TEliminar`)[cite: 3]
-  - `Text`: `Eliminar`[cite: 3]
+  - `Name`: `BEliminar` (o `TEliminar`)
+  - `Text`: `Eliminar`
 
 ---
 
 ## 3. Validaciones de Entrada (KeyPress)
-- [X] **Validación `TDni`:** Permitir exclusivamente el ingreso de caracteres numéricos[cite: 3].
-- [X] **Validación `TApellido`:** Permitir exclusivamente el ingreso de letras[cite: 3].
-- [X] **Validación `TNombre`:** Permitir exclusivamente el ingreso de letras[cite: 3].
+- [X] **Validación `TDni`:** Permitir exclusivamente el ingreso de caracteres numéricos.
+- [X] **Validación `TApellido`:** Permitir exclusivamente el ingreso de letras
+- [X] **Validación `TNombre`:** Permitir exclusivamente el ingreso de letras.
 
 ---
 
@@ -119,20 +119,100 @@ https://github.com/user-attachments/assets/07884fc9-6bb7-441b-9ef2-329f762b371c
 
 ### Botón Guardar (`BGuardar`)
 - [X] **Validación de campos incompletos:**
-  - Verificar si algún campo está vacío mediante `If` con operador lógico `Or` / `||`[cite: 3].
-  - Si falta algún campo, mostrar **MsgBox Crítico / Error** con título `"Error"` y mensaje `"Debe Completar todos los campos"`[cite: 3].
+  - Verificar si algún campo está vacío mediante `If` con operador lógico `Or` / `||`.
+  - Si falta algún campo, mostrar **MsgBox Crítico / Error** con título `"Error"` y mensaje `"Debe Completar todos los campos"`.
 - [X] **Flujo de inserción (Campos completos):**
-  - Actualizar el texto del label `LModificar` con el nombre y apellido ingresados[cite: 3].
-  - Asignar el resultado del mensaje a una variable `ask` (`MsgBoxResult` / `DialogResult`)[cite: 3].
-  - Mostrar **MsgBox de Consulta** con botones Sí/No, título `"Confirmar Insercion"`, mensaje `"Seguro que desea insertar un nuevo Cliente?"` y el **foco por defecto en "SI"**[cite: 3].
-  - Si se selecciona **"SI"**: Mostrar **MsgBox de Información** con título `"Guardar"` y mensaje `"El Cliente: [Nombre Apellido] se insertó correctamente"`[cite: 3].
+  - Actualizar el texto del label `LModificar` con el nombre y apellido ingresados.
+  - Asignar el resultado del mensaje a una variable `ask` (`MsgBoxResult` / `DialogResult`).
+  - Mostrar **MsgBox de Consulta** con botones Sí/No, título `"Confirmar Insercion"`, mensaje `"Seguro que desea insertar un nuevo Cliente?"` y el **foco por defecto en "SI"**.
+  - Si se selecciona **"SI"**: Mostrar **MsgBox de Información** con título `"Guardar"` y mensaje `"El Cliente: [Nombre Apellido] se insertó correctamente"`.
 
 ### Botón Eliminar (`BEliminar`)
 - [X] **Confirmación de advertencia:**
-  - Mostrar **MsgBox de Exclamación / Advertencia** con botones Sí/No, título `"Confirmar Eliminación"`, mensaje `"Está apunto de eliminar el Cliente: [Nombre Apellido]"` y el **foco por defecto en "NO"**[cite: 3].
+  - Mostrar **MsgBox de Exclamación / Advertencia** con botones Sí/No, título `"Confirmar Eliminación"`, mensaje `"Está apunto de eliminar el Cliente: [Nombre Apellido]"` y el **foco por defecto en "NO"**.
 - [X] **Acciones de respuesta:**
-  - Si se selecciona **"NO"**: No realizar ninguna acción[cite: 3].
+  - Si se selecciona **"NO"**: No realizar ninguna acción.
   - Si se selecciona **"SI"**:
-    - Mostrar **MsgBox de Información** con título `"Eliminar"` y mensaje `"El Cliente: [Nombre Apellido] se eliminó correctamente"`[cite: 3].
-    - Limpiar todos los campos de texto (`TDni.Clear()`, `TApellido.Clear()`, `TNombre.Clear()`)[cite: 3].
-    - Limpiar / reestablecer el label `LModificar`[cite: 3].
+    - Mostrar **MsgBox de Información** con título `"Eliminar"` y mensaje `"El Cliente: [Nombre Apellido] se eliminó correctamente"`.
+    - Limpiar todos los campos de texto (`TDni.Clear()`, `TApellido.Clear()`, `TNombre.Clear()`).
+    - Limpiar / reestablecer el label `LModificar`.
+
+## 5. Resultado
+<p align="center">
+  <img width="350" height="395" alt="image" src="https://github.com/user-attachments/assets/50be26f6-6d60-495c-bbd5-8c1050a42849" />
+<p align="center">
+
+
+
+https://github.com/user-attachments/assets/d11db64e-9a10-464b-a03b-861716345efa
+
+
+   
+# Checklist - Práctico 3: Formulario MDI Parent y Estilo al Pequeño Formulario
+**Materia:** Taller de Programación II  
+**Carrera:** Licenciatura en Sistemas de Información (FACENA - UNNE)
+
+---
+
+## 1. Modificaciones en el "Pequeño Formulario"
+
+### Nuevos Controles de Entrada y Etiquetas
+- [X] **Encabezados y Etiquetas:**
+  - [X] Agregar Label con el texto `"Nuevo Cliente"`.
+  - [X] Actualizar/agregar Labels: `*DNI`, `*Apellido`, `*Nombre`.
+  - [X] Agregar Label `Telefono` y su correspondiente `TextBox`.
+- [X] **Tarjetas de Crédito (`CheckBox`):**
+  - [X] Agregar Label con el texto `"Tarjeta de creditos:"`.
+  - [X] CheckBox 1: `Text` = `"Naranja"`.
+  - [X] CheckBox 2: `Text` = `"Visa"`.
+  - [X] CheckBox 3: `Text` = `"Mastercard"`.
+
+### Selección de Género e Imagen (`PictureBox` & `RadioButton`)
+- [X] **`PictureBox`:**
+  - [X] Agregar un control `PictureBox` (inicialmente vacío).
+- [X] **RadioButtons de Género:**
+  - [X] `RBVaron`: `Name` = `RBVaron`, `Text` = `"Varon"`.
+  - [X] `RBMujer`: `Name` = `RBMujer`, `Text` = `"Mujer"`.
+  - [X] Habilitar la propiedad `Checked` (`True`) en uno de los dos RadioButtons para que aparezca tildado por defecto.
+
+### Estilo de Botones
+- [X] **Botones Guardar, Eliminar y Salir:**
+  - [X] Asignar imagen a cada botón mediante la propiedad `Image`.
+  - [X] Configurar la alineación de la imagen usando la propiedad `ImageAlign`.
+  - [X] Modificar la alineación del texto del botón con la propiedad `TextAlign`.
+  - [X] Agregar el nuevo botón **`Salir`**.
+
+---
+
+## 2. Lógica y Eventos en el Pequeño Formulario
+
+- [ ] **Evento `CheckedChanged` de los RadioButtons:**
+  - [ ] Si se selecciona `RBVaron`: mostrar en el `PictureBox` el icono correspondiente a varón.
+  - [ ] Si se selecciona `RBMujer`: mostrar en el `PictureBox` el icono correspondiente a mujer.
+- [ ] **Evento Click del Botón Salir:**
+  - [ ] Cerrar el formulario actual mediante la instrucción `Me.Close()` (o `this.Close();` en C#).
+
+---
+
+## 3. Implementación del Contenedor MDI (`MDIParent`)
+
+- [ ] **Creación del Formulario MDI:**
+  - [ ] Agregar un nuevo elemento de tipo **Formulario primario MDI** (`MDIParent1`).
+  - [ ] Modificar el título / leyenda (`Text`) a `"Pequeño Sistema"`.
+- [ ] **Configuración de Inicio del Proyecto:**
+  - [ ] Establecer `MDIParent1` como el **Formulario de inicio** en las propiedades del proyecto.
+- [ ] **Menú y Apertura del Formulario Hijo (`MenuStrip`):**
+  - [ ] En la opción **Nuevo** del `MenuStrip`, instanciar y hacer referencia al "Pequeño Formulario".
+  - [ ] Establecer el formulario contenedor padre: `Formulario.MdiParent = Me` (o `formulario.MdiParent = this;`).
+  - [ ] Mostrar el formulario hijo dentro del MDI utilizando el método `.Show()`.
+     
+## 4. Resultado
+<p align="center">
+<img width="600" height="591" alt="image" src="https://github.com/user-attachments/assets/da5d1823-a8a8-41cd-a332-c9458a701b8b" />
+</p>
+
+
+
+https://github.com/user-attachments/assets/9e7427bc-a7e4-4dcb-8ef4-3d60060657db
+
+
