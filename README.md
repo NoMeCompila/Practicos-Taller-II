@@ -149,9 +149,6 @@ https://github.com/user-attachments/assets/d11db64e-9a10-464b-a03b-861716345efa
 
    
 # Checklist - Práctico 3: Formulario MDI Parent y Estilo al Pequeño Formulario
-**Materia:** Taller de Programación II  
-**Carrera:** Licenciatura en Sistemas de Información (FACENA - UNNE)
-
 ---
 
 ## 1. Modificaciones en el "Pequeño Formulario"
@@ -186,25 +183,25 @@ https://github.com/user-attachments/assets/d11db64e-9a10-464b-a03b-861716345efa
 
 ## 2. Lógica y Eventos en el Pequeño Formulario
 
-- [ ] **Evento `CheckedChanged` de los RadioButtons:**
-  - [ ] Si se selecciona `RBVaron`: mostrar en el `PictureBox` el icono correspondiente a varón.
-  - [ ] Si se selecciona `RBMujer`: mostrar en el `PictureBox` el icono correspondiente a mujer.
-- [ ] **Evento Click del Botón Salir:**
-  - [ ] Cerrar el formulario actual mediante la instrucción `Me.Close()` (o `this.Close();` en C#).
+- [X] **Evento `CheckedChanged` de los RadioButtons:**
+  - [X] Si se selecciona `RBVaron`: mostrar en el `PictureBox` el icono correspondiente a varón.
+  - [X] Si se selecciona `RBMujer`: mostrar en el `PictureBox` el icono correspondiente a mujer.
+- [X] **Evento Click del Botón Salir:**
+  - [X] Cerrar el formulario actual mediante la instrucción `Me.Close()` (o `this.Close();` en C#).
 
 ---
 
 ## 3. Implementación del Contenedor MDI (`MDIParent`)
 
-- [ ] **Creación del Formulario MDI:**
-  - [ ] Agregar un nuevo elemento de tipo **Formulario primario MDI** (`MDIParent1`).
-  - [ ] Modificar el título / leyenda (`Text`) a `"Pequeño Sistema"`.
-- [ ] **Configuración de Inicio del Proyecto:**
-  - [ ] Establecer `MDIParent1` como el **Formulario de inicio** en las propiedades del proyecto.
-- [ ] **Menú y Apertura del Formulario Hijo (`MenuStrip`):**
-  - [ ] En la opción **Nuevo** del `MenuStrip`, instanciar y hacer referencia al "Pequeño Formulario".
-  - [ ] Establecer el formulario contenedor padre: `Formulario.MdiParent = Me` (o `formulario.MdiParent = this;`).
-  - [ ] Mostrar el formulario hijo dentro del MDI utilizando el método `.Show()`.
+- [X] **Creación del Formulario MDI:**
+  - [X] Agregar un nuevo elemento de tipo **Formulario primario MDI** (`MDIParent1`).
+  - [X] Modificar el título / leyenda (`Text`) a `"Pequeño Sistema"`.
+- [X] **Configuración de Inicio del Proyecto:**
+  - [X] Establecer `MDIParent1` como el **Formulario de inicio** en las propiedades del proyecto.
+- [X] **Menú y Apertura del Formulario Hijo (`MenuStrip`):**
+  - [X] En la opción **Nuevo** del `MenuStrip`, instanciar y hacer referencia al "Pequeño Formulario".
+  - [X] Establecer el formulario contenedor padre: `Formulario.MdiParent = Me` (o `formulario.MdiParent = this;`).
+  - [X] Mostrar el formulario hijo dentro del MDI utilizando el método `.Show()`.
      
 ## 4. Resultado
 <p align="center">
