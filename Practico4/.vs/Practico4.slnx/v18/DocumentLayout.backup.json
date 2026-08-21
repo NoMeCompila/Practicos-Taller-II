@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FeR\\source\\repos\\Practico4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F453610A-0AFA-4C14-A956-F0D921A363EA}|Practico4\\Practico4.csproj|c:\\users\\fer\\source\\repos\\practico4\\practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F453610A-0AFA-4C14-A956-F0D921A363EA}|Practico4\\Practico4.csproj|solutionrelative:practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F453610A-0AFA-4C14-A956-F0D921A363EA}|Practico4\\Practico4.csproj|c:\\users\\fer\\source\\repos\\practico4\\practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F453610A-0AFA-4C14-A956-F0D921A363EA}|Practico4\\Practico4.csproj|solutionrelative:practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\FeR\\source\\repos\\Practico4\\Practico4\\Form1.cs",
+              "RelativeDocumentMoniker": "Practico4\\Form1.cs",
+              "ToolTip": "C:\\Users\\FeR\\source\\repos\\Practico4\\Practico4\\Form1.cs",
+              "RelativeToolTip": "Practico4\\Form1.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwDkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:32:36.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FeR\\source\\repos\\Practico4\\Practico4\\Form1.cs",
+              "RelativeDocumentMoniker": "Practico4\\Form1.cs",
+              "ToolTip": "C:\\Users\\FeR\\source\\repos\\Practico4\\Practico4\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practico4\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:52:23.389Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
