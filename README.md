@@ -213,3 +213,95 @@ https://github.com/user-attachments/assets/d11db64e-9a10-464b-a03b-861716345efa
 https://github.com/user-attachments/assets/9e7427bc-a7e4-4dcb-8ef4-3d60060657db
 
 
+# Checklist - Práctico 4: Utilización de DataGrid con Imágenes
+**Materia:** Taller de Programación II[cite: 7]  
+**Carrera:** Licenciatura en Sistemas de Información (FACENA - UNNE)[cite: 7]
+
+---
+
+## 1. Configuración del Formulario y Recursos del Proyecto
+- [x] **Título del Formulario (`Text`):** `"Formulario con Grid"`
+- [x] **Fondo del Formulario (`BackgroundImage`):** Imagen `cuadros negros-734708.png`
+- [x] **Panel de Entrada:**
+  - [x] Formato de letra / Fuente: `Papyrus`
+  - [x] Tamaño de fuente: `16`
+  - [x] Color de texto / fuente (`ForeColor`): Blanco
+  - [x] Imagen de fondo (`BackgroundImage`): `images.jpg`
+- [x] **Estructura de Archivos:**
+  - [x] Carpeta `Fotos` creada en el directorio de salida del proyecto: `\bin\Debug\Fotos`
+- [x] **Diálogos del Sistema:**
+  - [x] Componente `OpenFileDialog` agregado al formulario
+  - [x] Filtro de extensiones para imágenes (`.jpg`, `.bmp`, `.png`) configurado en el `OpenFileDialog`
+
+---
+
+## 2. Controles de Entrada de Datos e Interfaz
+
+### TextBoxes y Formato Estandarizado
+- [x] **Nombre (`TxtNombre`):** Configurado para convertir automáticamente la primera letra en mayúscula y el resto en minúscula
+- [x] **Apellido (`TxtApellido`):** Configurado para convertir automáticamente la primera letra en mayúscula y el resto en minúscula
+- [x] **Saldo (`TxtSaldo`):** Campo de texto para ingreso de montos/saldos
+- [x] **Ruta de Foto (`TxtFoto`):** Campo de texto para visualizar la ruta destino del archivo de imagen seleccionado
+
+### Fecha, Selección de Género y Avatar
+- [x] **Fecha de Nacimiento (`DateTimePicker`):** Formato corto configurado (`Format = Short`)
+- [x] **RadioButtons de Sexo:**
+  - [x] Opción Hombre (`Hombre`)
+  - [x] Opción Mujer (`Mujer`)
+- [x] **PictureBox (`Avatar`):**
+  - [x] Imagen de fondo por defecto configurada (`avatar.jpg`)
+
+### Botones
+- [x] **Botón Foto:**
+  - [x] Abre el cuadro de diálogo `OpenFileDialog`
+  - [x] Despliega la imagen seleccionada en el `PictureBox`
+  - [x] Asigna la ruta de destino al campo `TxtFoto`
+- [x] **Botón Guardar / Agregar:**
+  - [x] Imagen de ícono: Disco/Flappy Disk (`Image`)
+  - [x] Alineación de la imagen: Izquierda (`ImageAlign = MiddleLeft`)
+  - [x] Alineación del texto: Derecha (`TextAlign = MiddleRight`)
+
+---
+
+## 3. Configuración y Estilo del DataGridView
+
+- [x] **Estructura de Columnas:**
+  - [x] Columna `Apellido` (Texto)
+  - [x] Columna `Nombre` (Texto)
+  - [x] Columna `Fecha Nacimiento` (Texto / Fecha)
+  - [x] Columna `Sexo` (Texto)
+  - [x] Columna `Eliminar` (Columna de tipo Botón `DataGridViewButtonColumn`)
+  - [x] Columna `Saldo` (Texto / Numérico)
+  - [x] Columna `Foto` (Columna de imagen `DataGridViewImageColumn` con `ImageLayout = Stretch`)
+  - [x] Columna `Ruta` (Texto con el path del archivo copiado)
+- [x] **Estilos Tipográficos:**
+  - [x] Fuente personalizada asignada de forma independiente a la columna **Nombre**
+  - [x] Fuente personalizada asignada de forma independiente a la columna **Apellido**
+
+---
+
+## 4. Lógica, Validaciones y Eventos
+
+- [x] **Guardar / Insertar Registro:**
+  - [x] Guardar en la columna Sexo la leyenda correspondiente al `RadioButton` seleccionado (`Hombre` / `Mujer`)
+  - [x] Incorporar automáticamente la imagen del avatar/foto cargada a la celda de la columna `Foto`
+  - [x] Copiar físicamente la imagen seleccionada hacia la carpeta `\bin\Debug\Fotos\`
+- [x] **Formato Condicional por Saldo:**
+  - [x] Evaluar si el `Saldo` ingresado es menor a `$50`
+  - [x] Aplicar color de fondo rojo a toda la fila cuando el saldo sea `< 50`
+- [x] **Sincronización al Seleccionar Registro (DataGrid -> Formulario):**
+  - [x] Seleccionar automáticamente el `RadioButton` (`Hombre`/`Mujer`) según el valor del campo Sexo de la fila activa
+- [x] **Eliminación de Filas (`CellContentClick`):**
+  - [x] Detectar el clic sobre el botón de la celda de la columna `Eliminar`
+  - [x] Desplegar ventana de confirmación (`MsgBox`) consultando si realmente desea eliminar el registro
+  - [x] Eliminar la fila del `DataGridView` solo tras recibir confirmación afirmativa del usuario
+
+## 5. Resultado
+<p align="center">
+<img width="1034" height="624" alt="image" src="https://github.com/user-attachments/assets/ccc24886-e867-45c1-87df-38366110a381" />  
+</p>
+
+
+https://github.com/user-attachments/assets/148e349b-2f6c-4626-9c24-6f97d7e96587
+
+
